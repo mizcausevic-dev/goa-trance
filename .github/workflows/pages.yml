@@ -2,43 +2,15 @@ name: pages
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - main
-      - gh-pages
 
 permissions:
   contents: read
   pages: write
   id-token: write
 
-concurrency:
-  group: pages
-  cancel-in-progress: false
-
 jobs:
   deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+    if: ${{ false }}
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout site
-        uses: actions/checkout@v4
-        with:
-          ref: gh-pages
-      - name: Stage site
-        run: |
-          mkdir -p _site
-          find . -mindepth 1 -maxdepth 1 ! -name .git ! -name _site -exec cp -a {} _site/ \;
-      - name: Configure Pages
-        uses: actions/configure-pages@v5
-        with:
-          enablement: true
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: _site
-      - name: Deploy
-        id: deployment
-        uses: actions/deploy-pages@v4
+      - run: echo "Pages creation is not attempted with the Actions token."
