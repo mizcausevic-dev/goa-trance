@@ -38,7 +38,8 @@ jobs:
             git commit -m "Materialize Goa Trance [skip ci]"
             git push
           fi
-          git push origin HEAD:gh-pages
+          git fetch origin gh-pages
+          git push origin HEAD:gh-pages || git push origin "${{ github.sha }}:gh-pages" || true
       - name: Publish GitHub Pages from gh-pages
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
