@@ -120,7 +120,7 @@ preview, not a master
   "sample_peak_dbfs": -1.3658380723499741,
   "sample_peak_note": "This is a sample peak of the integer mix after scaling. It is not a true-peak measurement and it is not LUFS.",
   "score_seconds": 27.04224,
-  "score_sha256": "9e894dd2688fb26b5b3df1a1abf58de1b486c7c6896c651f04fe32bc34f31c5b",
+  "score_sha256": "e5b473b3cd28ac53f635c3c854ec828308460ddbc1024881d0803a536e812037",
   "seconds_encoded": 27.042245,
   "source_parts": [
     {

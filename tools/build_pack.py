@@ -39,10 +39,10 @@ from tools.statements import (  # noqa: E402
 from tools.validate import dump_json, validate_tree, write_midi_files  # noqa: E402
 
 X_BODY = (
-    "Goa Trance: four kits, interlocking sequences, odd-step cycles in 4/4, "
-    "two variations each, note-only MIDI, 138-148 BPM. "
-    "Preview is a simple-synth excerpt of kit 01, not a master. "
-    "No listening audition was performed."
+    "Goa Trance: Seven Gate 142, Fifth Lattice 146, Nine Pulse 140, Return Spiral 148. "
+    "Preview is bars 1-16 of Seven Gate at 142 BPM, not the 32-bar arrangement. "
+    "MP3 27.042 seconds. preview, not a master. "
+    "No human listening audition was performed for this build."
 )
 MARK = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
   <rect width="64" height="64" fill="#071410"/>
@@ -250,7 +250,7 @@ This file is a draft. It has not been posted.
 
 Caption
 
-Goa Trance. Four kits of interlocking sequences, with odd-step cycles that stay inside 4/4. Six core parts, two variations each, note-only MIDI between 138 and 148 BPM. The audio preview is a simple-synth excerpt of kit 01, bars 1-16, not a master. No listening audition was performed for this build.
+Goa Trance. Four kits: Seven Gate 142, Fifth Lattice 146, Nine Pulse 140, Return Spiral 148. The preview is bars 1-16 of Seven Gate at 142 BPM, not the 32-bar arrangement. The MP3 is 27.042 seconds. preview, not a master. No human listening audition was performed for this build.
 
 Hashtags
 
