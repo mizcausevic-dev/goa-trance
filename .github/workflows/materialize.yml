@@ -33,27 +33,28 @@ jobs:
             git push origin HEAD:main
           fi
           git fetch origin gh-pages
+          rm -rf /tmp/gh-pages
           git worktree add /tmp/gh-pages origin/gh-pages
-          paths=$
-          paths="articles/medium-draft-Cursor.md
-          articles/medium-paste-Cursor.txt
-          index.html
-          midi/k03-nine-pulse/arrangement.mid
-          midi/k03-nine-pulse/field-b.mid
-          midi/validation-Cursor.json
-          preview/preview-manifest-Cursor.txt
-          score/canonical-score-Cursor.json
-          social/instagram-Cursor/captions-Cursor.md
-          social/x-Cursor/post-Cursor.txt
-          tools/article.py
-          tools/build_pack.py
-          tools/compose.py"
-          printf '%s\n' "$paths" | while IFS= read -r path; do
-            [ -n "$path" ] || continue
+          cat > /tmp/fix-paths.txt <<'EOF'
+articles/medium-draft-Cursor.md
+articles/medium-paste-Cursor.txt
+index.html
+midi/k03-nine-pulse/arrangement.mid
+midi/k03-nine-pulse/field-b.mid
+midi/validation-Cursor.json
+preview/preview-manifest-Cursor.txt
+score/canonical-score-Cursor.json
+social/instagram-Cursor/captions-Cursor.md
+social/x-Cursor/post-Cursor.txt
+tools/article.py
+tools/build_pack.py
+tools/compose.py
+EOF
+          while IFS= read -r path; do
             mkdir -p "/tmp/gh-pages/$(dirname "$path")"
             cp -a "$path" "/tmp/gh-pages/$path"
             git -C /tmp/gh-pages add "$path"
-          done
+          done < /tmp/fix-paths.txt
           if git -C /tmp/gh-pages diff --cached --quiet; then
             echo "gh-pages already has the fix."
           else
