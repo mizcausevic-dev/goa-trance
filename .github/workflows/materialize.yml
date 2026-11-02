@@ -11,7 +11,6 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      pages: write
     steps:
       - uses: actions/checkout@v4
       - name: Unpack generator
@@ -38,32 +37,3 @@ jobs:
             git commit -m "Materialize Goa Trance [skip ci]"
             git push
           fi
-          git fetch origin gh-pages
-          git push origin HEAD:gh-pages || git push origin "${{ github.sha }}:gh-pages" || true
-      - name: Publish GitHub Pages from gh-pages
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          set -euo pipefail
-          ok=0
-          for attempt in 1 2 3 4 5; do
-            if gh api --method POST "repos/${{ github.repository }}/pages" \
-              -f build_type=legacy \
-              -f "source[branch]=gh-pages" \
-              -f "source[path]=/"; then
-              ok=1
-              break
-            fi
-            if gh api --method PUT "repos/${{ github.repository }}/pages" \
-              -f build_type=legacy \
-              -f "source[branch]=gh-pages" \
-              -f "source[path]=/"; then
-              ok=1
-              break
-            fi
-            sleep 8
-          done
-          test "$ok" = 1
-          gh api --method PUT "repos/${{ github.repository }}/topics" --input - <<'EOF'
-          {"names":["midi","goa-trance","trance","music-production","composition"]}
-          EOF
