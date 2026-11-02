@@ -2,4 +2,4 @@ DRAFT
 This label is not the post body.
 
 POST BODY
-Goa Trance: four kits, interlocking sequences, odd-step cycles in 4/4, two variations each, note-only MIDI, 138-148 BPM. Preview is a simple-synth excerpt of kit 01, not a master. No listening audition was performed.
+Goa Trance: Seven Gate 142, Fifth Lattice 146, Nine Pulse 140, Return Spiral 148. Preview is bars 1-16 of Seven Gate at 142 BPM, not the 32-bar arrangement. MP3 27.042 seconds. preview, not a master. No human listening audition was performed for this build.

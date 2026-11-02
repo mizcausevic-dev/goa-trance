@@ -3,7 +3,7 @@ This file is a draft. It has not been posted.
 
 Caption
 
-Goa Trance. Four kits of interlocking sequences, with odd-step cycles that stay inside 4/4. Six core parts, two variations each, note-only MIDI between 138 and 148 BPM. The audio preview is a simple-synth excerpt of kit 01, bars 1-16, not a master. No listening audition was performed for this build.
+Goa Trance. Four kits: Seven Gate 142, Fifth Lattice 146, Nine Pulse 140, Return Spiral 148. The preview is bars 1-16 of Seven Gate at 142 BPM, not the 32-bar arrangement. The MP3 is 27.042 seconds. preview, not a master. No human listening audition was performed for this build.
 
 Hashtags
 
