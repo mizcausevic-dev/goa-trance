@@ -1,0 +1,2022 @@
+{
+  "arrangement": {
+    "bpm": 142,
+    "container_bars": 32,
+    "container_ticks": 122880,
+    "description": "Seven Gate 32-bar arrangement. Parts are placed in 8-bar sections. Tempo and meter stay on the conductor.",
+    "format": 1,
+    "id": "k01-arrangement",
+    "kit_id": "k01",
+    "meter": "4/4",
+    "path": "midi/k01-seven-gate/arrangement.mid",
+    "sections": [
+      {
+        "bars": 8,
+        "name": "Gate",
+        "parts": [
+          "k01.drums.a",
+          "k01.bass.a",
+          "k01.primary.a",
+          "k01.motif.a"
+        ],
+        "start_bar": 0
+      },
+      {
+        "bars": 8,
+        "name": "Open",
+        "parts": [
+          "k01.drums.a",
+          "k01.bass.a",
+          "k01.primary.a",
+          "k01.secondary.a",
+          "k01.motif.a",
+          "k01.field.a"
+        ],
+        "start_bar": 8
+      },
+      {
+        "bars": 8,
+        "name": "Turn",
+        "parts": [
+          "k01.drums.b",
+          "k01.bass.b",
+          "k01.primary.b",
+          "k01.secondary.b",
+          "k01.motif.b"
+        ],
+        "start_bar": 16
+      },
+      {
+        "bars": 8,
+        "name": "Return",
+        "parts": [
+          "k01.drums.b",
+          "k01.bass.a",
+          "k01.primary.a",
+          "k01.secondary.a",
+          "k01.motif.b",
+          "k01.field.b"
+        ],
+        "start_bar": 24
+      }
+    ],
+    "tempo_us": 422535,
+    "tracks": [
+      {
+        "channel": null,
+        "name": "Conductor",
+        "placements": null,
+        "role": null,
+        "source_part": null
+      },
+      {
+        "channel": 9,
+        "name": "Drums",
+        "placements": [
+          {
+            "source_part": "k01.drums.a",
+            "start_bar": 0,
+            "variation": "a"
+          },
+          {
+            "source_part": "k01.drums.a",
+            "start_bar": 8,
+            "variation": "a"
+          },
+          {
+            "source_part": "k01.drums.b",
+            "start_bar": 16,
+            "variation": "b"
+          },
+          {
+            "source_part": "k01.drums.b",
+            "start_bar": 24,
+            "variation": "b"
+          }
+        ],
+        "role": "drums",
+        "source_part": null
+      },
+      {
+        "channel": 4,
+        "name": "Bass",
+        "placements": [
+          {
+            "source_part": "k01.bass.a",
+            "start_bar": 0,
+            "variation": "a"
+          },
+          {
+            "source_part": "k01.bass.a",
+            "start_bar": 8,
+            "variation": "a"
+          },
+          {
+            "source_part": "k01.bass.b",
+            "start_bar": 16,
+            "variation": "b"
+          },
+          {
+            "source_part": "k01.bass.a",
+            "start_bar": 24,
+            "variation": "a"
+          }
+        ],
+        "role": "bass",
+        "source_part": null
+      },
+      {
+        "channel": 0,
+        "name": "Primary Sequence",
+        "placements": [
+          {
+            "source_part": "k01.primary.a",
+            "start_bar": 0,
+            "variation": "a"
+          },
+          {
+            "source_part": "k01.primary.a",
+            "start_bar": 8,
+            "variation": "a"
+          },
+          {
+            "source_part": "k01.primary.b",
+            "start_bar": 16,
+            "variation": "b"
+          },
+          {
+            "source_part": "k01.primary.a",
+            "start_bar": 24,
+            "variation": "a"
+          }
+        ],
+        "role": "primary-sequence",
+        "source_part": null
+      },
+      {
+        "channel": 1,
+        "name": "Secondary Sequence",
+        "placements": [
+          {
+            "source_part": "k01.secondary.a",
+            "start_bar": 8,
+            "variation": "a"
+          },
+          {
+            "source_part": "k01.secondary.b",
+            "start_bar": 16,
+            "variation": "b"
+          },
+          {
+            "source_part": "k01.secondary.a",
+            "start_bar": 24,
+            "variation": "a"
+          }
+        ],
+        "role": "secondary-sequence",
+        "source_part": null
+      },
+      {
+        "channel": 2,
+        "name": "Motif",
+        "placements": [
+          {
+            "source_part": "k01.motif.a",
+            "start_bar": 0,
+            "variation": "a"
+          },
+          {
+            "source_part": "k01.motif.a",
+            "start_bar": 8,
+            "variation": "a"
+          },
+          {
+            "source_part": "k01.motif.b",
+            "start_bar": 16,
+            "variation": "b"
+          },
+          {
+            "source_part": "k01.motif.b",
+            "start_bar": 24,
+            "variation": "b"
+          }
+        ],
+        "role": "motif",
+        "source_part": null
+      },
+      {
+        "channel": 3,
+        "name": "Harmonic Field",
+        "placements": [
+          {
+            "source_part": "k01.field.a",
+            "start_bar": 8,
+            "variation": "a"
+          },
+          {
+            "source_part": "k01.field.b",
+            "start_bar": 24,
+            "variation": "b"
+          }
+        ],
+        "role": "harmonic-field",
+        "source_part": null
+      }
+    ]
+  },
+  "arrangement_bars": 32,
+  "arrangements": [
+    {
+      "bpm": 142,
+      "container_bars": 32,
+      "container_ticks": 122880,
+      "description": "Seven Gate 32-bar arrangement. Parts are placed in 8-bar sections. Tempo and meter stay on the conductor.",
+      "format": 1,
+      "id": "k01-arrangement",
+      "kit_id": "k01",
+      "meter": "4/4",
+      "path": "midi/k01-seven-gate/arrangement.mid",
+      "sections": [
+        {
+          "bars": 8,
+          "name": "Gate",
+          "parts": [
+            "k01.drums.a",
+            "k01.bass.a",
+            "k01.primary.a",
+            "k01.motif.a"
+          ],
+          "start_bar": 0
+        },
+        {
+          "bars": 8,
+          "name": "Open",
+          "parts": [
+            "k01.drums.a",
+            "k01.bass.a",
+            "k01.primary.a",
+            "k01.secondary.a",
+            "k01.motif.a",
+            "k01.field.a"
+          ],
+          "start_bar": 8
+        },
+        {
+          "bars": 8,
+          "name": "Turn",
+          "parts": [
+            "k01.drums.b",
+            "k01.bass.b",
+            "k01.primary.b",
+            "k01.secondary.b",
+            "k01.motif.b"
+          ],
+          "start_bar": 16
+        },
+        {
+          "bars": 8,
+          "name": "Return",
+          "parts": [
+            "k01.drums.b",
+            "k01.bass.a",
+            "k01.primary.a",
+            "k01.secondary.a",
+            "k01.motif.b",
+            "k01.field.b"
+          ],
+          "start_bar": 24
+        }
+      ],
+      "tempo_us": 422535,
+      "tracks": [
+        {
+          "channel": null,
+          "name": "Conductor",
+          "placements": null,
+          "role": null,
+          "source_part": null
+        },
+        {
+          "channel": 9,
+          "name": "Drums",
+          "placements": [
+            {
+              "source_part": "k01.drums.a",
+              "start_bar": 0,
+              "variation": "a"
+            },
+            {
+              "source_part": "k01.drums.a",
+              "start_bar": 8,
+              "variation": "a"
+            },
+            {
+              "source_part": "k01.drums.b",
+              "start_bar": 16,
+              "variation": "b"
+            },
+            {
+              "source_part": "k01.drums.b",
+              "start_bar": 24,
+              "variation": "b"
+            }
+          ],
+          "role": "drums",
+          "source_part": null
+        },
+        {
+          "channel": 4,
+          "name": "Bass",
+          "placements": [
+            {
+              "source_part": "k01.bass.a",
+              "start_bar": 0,
+              "variation": "a"
+            },
+            {
+              "source_part": "k01.bass.a",
+              "start_bar": 8,
+              "variation": "a"
+            },
+            {
+              "source_part": "k01.bass.b",
+              "start_bar": 16,
+              "variation": "b"
+            },
+            {
+              "source_part": "k01.bass.a",
+              "start_bar": 24,
+              "variation": "a"
+            }
+          ],
+          "role": "bass",
+          "source_part": null
+        },
+        {
+          "channel": 0,
+          "name": "Primary Sequence",
+          "placements": [
+            {
+              "source_part": "k01.primary.a",
+              "start_bar": 0,
+              "variation": "a"
+            },
+            {
+              "source_part": "k01.primary.a",
+              "start_bar": 8,
+              "variation": "a"
+            },
+            {
+              "source_part": "k01.primary.b",
+              "start_bar": 16,
+              "variation": "b"
+            },
+            {
+              "source_part": "k01.primary.a",
+              "start_bar": 24,
+              "variation": "a"
+            }
+          ],
+          "role": "primary-sequence",
+          "source_part": null
+        },
+        {
+          "channel": 1,
+          "name": "Secondary Sequence",
+          "placements": [
+            {
+              "source_part": "k01.secondary.a",
+              "start_bar": 8,
+              "variation": "a"
+            },
+            {
+              "source_part": "k01.secondary.b",
+              "start_bar": 16,
+              "variation": "b"
+            },
+            {
+              "source_part": "k01.secondary.a",
+              "start_bar": 24,
+              "variation": "a"
+            }
+          ],
+          "role": "secondary-sequence",
+          "source_part": null
+        },
+        {
+          "channel": 2,
+          "name": "Motif",
+          "placements": [
+            {
+              "source_part": "k01.motif.a",
+              "start_bar": 0,
+              "variation": "a"
+            },
+            {
+              "source_part": "k01.motif.a",
+              "start_bar": 8,
+              "variation": "a"
+            },
+            {
+              "source_part": "k01.motif.b",
+              "start_bar": 16,
+              "variation": "b"
+            },
+            {
+              "source_part": "k01.motif.b",
+              "start_bar": 24,
+              "variation": "b"
+            }
+          ],
+          "role": "motif",
+          "source_part": null
+        },
+        {
+          "channel": 3,
+          "name": "Harmonic Field",
+          "placements": [
+            {
+              "source_part": "k01.field.a",
+              "start_bar": 8,
+              "variation": "a"
+            },
+            {
+              "source_part": "k01.field.b",
+              "start_bar": 24,
+              "variation": "b"
+            }
+          ],
+          "role": "harmonic-field",
+          "source_part": null
+        }
+      ]
+    },
+    {
+      "bpm": 146,
+      "container_bars": 32,
+      "container_ticks": 122880,
+      "description": "Fifth Lattice 32-bar arrangement. Parts are placed in 8-bar sections. Tempo and meter stay on the conductor.",
+      "format": 1,
+      "id": "k02-arrangement",
+      "kit_id": "k02",
+      "meter": "4/4",
+      "path": "midi/k02-fifth-lattice/arrangement.mid",
+      "sections": [
+        {
+          "bars": 8,
+          "name": "Lattice",
+          "parts": [
+            "k02.drums.a",
+            "k02.bass.a",
+            "k02.secondary.a"
+          ],
+          "start_bar": 0
+        },
+        {
+          "bars": 8,
+          "name": "Fifth",
+          "parts": [
+            "k02.drums.a",
+            "k02.bass.a",
+            "k02.primary.a",
+            "k02.secondary.a",
+            "k02.motif.a"
+          ],
+          "start_bar": 8
+        },
+        {
+          "bars": 8,
+          "name": "Break",
+          "parts": [
+            "k02.drums.b",
+            "k02.bass.b",
+            "k02.primary.b",
+            "k02.secondary.b",
+            "k02.motif.b",
+            "k02.field.a"
+          ],
+          "start_bar": 16
+        },
+        {
+          "bars": 8,
+          "name": "Close",
+          "parts": [
+            "k02.drums.a",
+            "k02.bass.b",
+            "k02.primary.a",
+            "k02.motif.b",
+            "k02.field.b"
+          ],
+          "start_bar": 24
+        }
+      ],
+      "tempo_us": 410959,
+      "tracks": [
+        {
+          "channel": null,
+          "name": "Conductor",
+          "placements": null,
+          "role": null,
+          "source_part": null
+        },
+        {
+          "channel": 9,
+          "name": "Drums",
+          "placements": [
+            {
+              "source_part": "k02.drums.a",
+              "start_bar": 0,
+              "variation": "a"
+            },
+            {
+              "source_part": "k02.drums.a",
+              "start_bar": 8,
+              "variation": "a"
+            },
+            {
+              "source_part": "k02.drums.b",
+              "start_bar": 16,
+              "variation": "b"
+            },
+            {
+              "source_part": "k02.drums.a",
+              "start_bar": 24,
+              "variation": "a"
+            }
+          ],
+          "role": "drums",
+          "source_part": null
+        },
+        {
+          "channel": 4,
+          "name": "Bass",
+          "placements": [
+            {
+              "source_part": "k02.bass.a",
+              "start_bar": 0,
+              "variation": "a"
+            },
+            {
+              "source_part": "k02.bass.a",
+              "start_bar": 8,
+              "variation": "a"
+            },
+            {
+              "source_part": "k02.bass.b",
+              "start_bar": 16,
+              "variation": "b"
+            },
+            {
+              "source_part": "k02.bass.b",
+              "start_bar": 24,
+              "variation": "b"
+            }
+          ],
+          "role": "bass",
+          "source_part": null
+        },
+        {
+          "channel": 0,
+          "name": "Primary Sequence",
+          "placements": [
+            {
+              "source_part": "k02.primary.a",
+              "start_bar": 8,
+              "variation": "a"
+            },
+            {
+              "source_part": "k02.primary.b",
+              "start_bar": 16,
+              "variation": "b"
+            },
+            {
+              "source_part": "k02.primary.a",
+              "start_bar": 24,
+              "variation": "a"
+            }
+          ],
+          "role": "primary-sequence",
+          "source_part": null
+        },
+        {
+          "channel": 1,
+          "name": "Secondary Sequence",
+          "placements": [
+            {
+              "source_part": "k02.secondary.a",
+              "start_bar": 0,
+              "variation": "a"
+            },
+            {
+              "source_part": "k02.secondary.a",
+              "start_bar": 8,
+              "variation": "a"
+            },
+            {
+              "source_part": "k02.secondary.b",
+              "start_bar": 16,
+              "variation": "b"
+            }
+          ],
+          "role": "secondary-sequence",
+          "source_part": null
+        },
+        {
+          "channel": 2,
+          "name": "Motif",
+          "placements": [
+            {
+              "source_part": "k02.motif.a",
+              "start_bar": 8,
+              "variation": "a"
+            },
+            {
+              "source_part": "k02.motif.b",
+              "start_bar": 16,
+              "variation": "b"
+            },
+            {
+              "source_part": "k02.motif.b",
+              "start_bar": 24,
+              "variation": "b"
+            }
+          ],
+          "role": "motif",
+          "source_part": null
+        },
+        {
+          "channel": 3,
+          "name": "Harmonic Field",
+          "placements": [
+            {
+              "source_part": "k02.field.a",
+              "start_bar": 16,
+              "variation": "a"
+            },
+            {
+              "source_part": "k02.field.b",
+              "start_bar": 24,
+              "variation": "b"
+            }
+          ],
+          "role": "harmonic-field",
+          "source_part": null
+        }
+      ]
+    },
+    {
+      "bpm": 140,
+      "container_bars": 32,
+      "container_ticks": 122880,
+      "description": "Nine Pulse 32-bar arrangement. Parts are placed in 8-bar sections. Tempo and meter stay on the conductor.",
+      "format": 1,
+      "id": "k03-arrangement",
+      "kit_id": "k03",
+      "meter": "4/4",
+      "path": "midi/k03-nine-pulse/arrangement.mid",
+      "sections": [
+        {
+          "bars": 8,
+          "name": "Pulse",
+          "parts": [
+            "k03.drums.a",
+            "k03.primary.a",
+            "k03.field.a"
+          ],
+          "start_bar": 0
+        },
+        {
+          "bars": 8,
+          "name": "Answer",
+          "parts": [
+            "k03.drums.a",
+            "k03.bass.a",
+            "k03.primary.a",
+            "k03.secondary.a",
+            "k03.motif.a"
+          ],
+          "start_bar": 8
+        },
+        {
+          "bars": 8,
+          "name": "Shift",
+          "parts": [
+            "k03.drums.b",
+            "k03.bass.b",
+            "k03.primary.b",
+            "k03.secondary.b",
+            "k03.field.b"
+          ],
+          "start_bar": 16
+        },
+        {
+          "bars": 8,
+          "name": "Spiral",
+          "parts": [
+            "k03.drums.b",
+            "k03.bass.a",
+            "k03.secondary.b",
+            "k03.motif.b",
+            "k03.field.a"
+          ],
+          "start_bar": 24
+        }
+      ],
+      "tempo_us": 428571,
+      "tracks": [
+        {
+          "channel": null,
+          "name": "Conductor",
+          "placements": null,
+          "role": null,
+          "source_part": null
+        },
+        {
+          "channel": 9,
+          "name": "Drums",
+          "placements": [
+            {
+              "source_part": "k03.drums.a",
+              "start_bar": 0,
+              "variation": "a"
+            },
+            {
+              "source_part": "k03.drums.a",
+              "start_bar": 8,
+              "variation": "a"
+            },
+            {
+              "source_part": "k03.drums.b",
+              "start_bar": 16,
+              "variation": "b"
+            },
+            {
+              "source_part": "k03.drums.b",
+              "start_bar": 24,
+              "variation": "b"
+            }
+          ],
+          "role": "drums",
+          "source_part": null
+        },
+        {
+          "channel": 4,
+          "name": "Bass",
+          "placements": [
+            {
+              "source_part": "k03.bass.a",
+              "start_bar": 8,
+              "variation": "a"
+            },
+            {
+              "source_part": "k03.bass.b",
+              "start_bar": 16,
+              "variation": "b"
+            },
+            {
+              "source_part": "k03.bass.a",
+              "start_bar": 24,
+              "variation": "a"
+            }
+          ],
+          "role": "bass",
+          "source_part": null
+        },
+        {
+          "channel": 0,
+          "name": "Primary Sequence",
+          "placements": [
+            {
+              "source_part": "k03.primary.a",
+              "start_bar": 0,
+              "variation": "a"
+            },
+            {
+              "source_part": "k03.primary.a",
+              "start_bar": 8,
+              "variation": "a"
+            },
+            {
+              "source_part": "k03.primary.b",
+              "start_bar": 16,
+              "variation": "b"
+            }
+          ],
+          "role": "primary-sequence",
+          "source_part": null
+        },
+        {
+          "channel": 1,
+          "name": "Secondary Sequence",
+          "placements": [
+            {
+              "source_part": "k03.secondary.a",
+              "start_bar": 8,
+              "variation": "a"
+            },
+            {
+              "source_part": "k03.secondary.b",
+              "start_bar": 16,
+              "variation": "b"
+            },
+            {
+              "source_part": "k03.secondary.b",
+              "start_bar": 24,
+              "variation": "b"
+            }
+          ],
+          "role": "secondary-sequence",
+          "source_part": null
+        },
+        {
+          "channel": 2,
+          "name": "Motif",
+          "placements": [
+            {
+              "source_part": "k03.motif.a",
+              "start_bar": 8,
+              "variation": "a"
+            },
+            {
+              "source_part": "k03.motif.b",
+              "start_bar": 24,
+              "variation": "b"
+            }
+          ],
+          "role": "motif",
+          "source_part": null
+        },
+        {
+          "channel": 3,
+          "name": "Harmonic Field",
+          "placements": [
+            {
+              "source_part": "k03.field.a",
+              "start_bar": 0,
+              "variation": "a"
+            },
+            {
+              "source_part": "k03.field.b",
+              "start_bar": 16,
+              "variation": "b"
+            },
+            {
+              "source_part": "k03.field.a",
+              "start_bar": 24,
+              "variation": "a"
+            }
+          ],
+          "role": "harmonic-field",
+          "source_part": null
+        }
+      ]
+    },
+    {
+      "bpm": 148,
+      "container_bars": 32,
+      "container_ticks": 122880,
+      "description": "Return Spiral 32-bar arrangement. Parts are placed in 8-bar sections. Tempo and meter stay on the conductor.",
+      "format": 1,
+      "id": "k04-arrangement",
+      "kit_id": "k04",
+      "meter": "4/4",
+      "path": "midi/k04-return-spiral/arrangement.mid",
+      "sections": [
+        {
+          "bars": 8,
+          "name": "Root",
+          "parts": [
+            "k04.drums.a",
+            "k04.bass.a",
+            "k04.motif.a"
+          ],
+          "start_bar": 0
+        },
+        {
+          "bars": 8,
+          "name": "Weave",
+          "parts": [
+            "k04.drums.a",
+            "k04.bass.a",
+            "k04.primary.a",
+            "k04.secondary.a",
+            "k04.field.a"
+          ],
+          "start_bar": 8
+        },
+        {
+          "bars": 8,
+          "name": "Other",
+          "parts": [
+            "k04.drums.b",
+            "k04.bass.b",
+            "k04.primary.b",
+            "k04.motif.b"
+          ],
+          "start_bar": 16
+        },
+        {
+          "bars": 8,
+          "name": "Return",
+          "parts": [
+            "k04.drums.a",
+            "k04.bass.b",
+            "k04.primary.a",
+            "k04.secondary.b",
+            "k04.motif.a",
+            "k04.field.b"
+          ],
+          "start_bar": 24
+        }
+      ],
+      "tempo_us": 405405,
+      "tracks": [
+        {
+          "channel": null,
+          "name": "Conductor",
+          "placements": null,
+          "role": null,
+          "source_part": null
+        },
+        {
+          "channel": 9,
+          "name": "Drums",
+          "placements": [
+            {
+              "source_part": "k04.drums.a",
+              "start_bar": 0,
+              "variation": "a"
+            },
+            {
+              "source_part": "k04.drums.a",
+              "start_bar": 8,
+              "variation": "a"
+            },
+            {
+              "source_part": "k04.drums.b",
+              "start_bar": 16,
+              "variation": "b"
+            },
+            {
+              "source_part": "k04.drums.a",
+              "start_bar": 24,
+              "variation": "a"
+            }
+          ],
+          "role": "drums",
+          "source_part": null
+        },
+        {
+          "channel": 4,
+          "name": "Bass",
+          "placements": [
+            {
+              "source_part": "k04.bass.a",
+              "start_bar": 0,
+              "variation": "a"
+            },
+            {
+              "source_part": "k04.bass.a",
+              "start_bar": 8,
+              "variation": "a"
+            },
+            {
+              "source_part": "k04.bass.b",
+              "start_bar": 16,
+              "variation": "b"
+            },
+            {
+              "source_part": "k04.bass.b",
+              "start_bar": 24,
+              "variation": "b"
+            }
+          ],
+          "role": "bass",
+          "source_part": null
+        },
+        {
+          "channel": 0,
+          "name": "Primary Sequence",
+          "placements": [
+            {
+              "source_part": "k04.primary.a",
+              "start_bar": 8,
+              "variation": "a"
+            },
+            {
+              "source_part": "k04.primary.b",
+              "start_bar": 16,
+              "variation": "b"
+            },
+            {
+              "source_part": "k04.primary.a",
+              "start_bar": 24,
+              "variation": "a"
+            }
+          ],
+          "role": "primary-sequence",
+          "source_part": null
+        },
+        {
+          "channel": 1,
+          "name": "Secondary Sequence",
+          "placements": [
+            {
+              "source_part": "k04.secondary.a",
+              "start_bar": 8,
+              "variation": "a"
+            },
+            {
+              "source_part": "k04.secondary.b",
+              "start_bar": 24,
+              "variation": "b"
+            }
+          ],
+          "role": "secondary-sequence",
+          "source_part": null
+        },
+        {
+          "channel": 2,
+          "name": "Motif",
+          "placements": [
+            {
+              "source_part": "k04.motif.a",
+              "start_bar": 0,
+              "variation": "a"
+            },
+            {
+              "source_part": "k04.motif.b",
+              "start_bar": 16,
+              "variation": "b"
+            },
+            {
+              "source_part": "k04.motif.a",
+              "start_bar": 24,
+              "variation": "a"
+            }
+          ],
+          "role": "motif",
+          "source_part": null
+        },
+        {
+          "channel": 3,
+          "name": "Harmonic Field",
+          "placements": [
+            {
+              "source_part": "k04.field.a",
+              "start_bar": 8,
+              "variation": "a"
+            },
+            {
+              "source_part": "k04.field.b",
+              "start_bar": 24,
+              "variation": "b"
+            }
+          ],
+          "role": "harmonic-field",
+          "source_part": null
+        }
+      ]
+    }
+  ],
+  "c4": 60,
+  "catalog_version": "1.0.0",
+  "channels": {
+    "bass": 4,
+    "drums": 9,
+    "harmonic-field": 3,
+    "motif": 2,
+    "primary-sequence": 0,
+    "secondary-sequence": 1
+  },
+  "core_part_count": 48,
+  "core_roles": [
+    "drums",
+    "bass",
+    "primary-sequence",
+    "secondary-sequence",
+    "motif",
+    "harmonic-field"
+  ],
+  "drum_channel_index": 9,
+  "drum_channel_number": 10,
+  "drum_map": {
+    "36": "Acoustic Bass Drum",
+    "37": "Side Stick",
+    "38": "Acoustic Snare",
+    "39": "Hand Clap",
+    "40": "Electric Snare",
+    "42": "Closed Hi-Hat",
+    "46": "Open Hi-Hat",
+    "49": "Crash Cymbal 1"
+  },
+  "excerpt_bars": 16,
+  "generator_version": "1.0.0",
+  "kind": "construction-kit",
+  "kits": [
+    {
+      "arrangement_bars": 32,
+      "bar_ticks": 3840,
+      "bpm": 142,
+      "collection_name": "E Phrygian dominant",
+      "cycles": [
+        "Primary A groups 7 sixteenth notes, 1680 ticks. Seven bars hold 112 sixteenths, and 112 divides by 7, so the cycle meets the downbeat again at bar 8. The part ends after the first bar of the next pass. Meter stays 4/4.",
+        "Secondary A waits one sixteenth, then groups 5. Five bars realign that delayed grid. The wait is not a meter change.",
+        "Bass A sounds three sixteenths and rests the fourth. That group resets every bar because 4 sixteenths fill one beat, four times.",
+        "Drums A reset every bar. Motif A resets every 2 bars. The harmonic field changes every 2 bars."
+      ],
+      "departures": [
+        "Primary B has one G4 (67) at tick 5160. G is outside E Phrygian dominant. It is one attack, then the line returns."
+      ],
+      "effective_bpm": 142.0000710000355,
+      "id": "k01",
+      "identity": "Seven Gate locks a 7-sixteenth primary sequence to a 4-on-the-floor kit and a 3-note bass group. Variation B drops the kick to half time, moves the lead onto a late eighth grid, and answers with a two-note secondary.",
+      "limitations": "Play variation A parts together, or variation B parts together. The arrangement is the only place those sets trade. Odd groups do not change the 4/4 bar.",
+      "meter": "4/4",
+      "part_bars": 8,
+      "pitch_classes": [
+        4,
+        5,
+        8,
+        9,
+        11,
+        0,
+        2
+      ],
+      "seed": 14201,
+      "slug": "k01-seven-gate",
+      "spell": [
+        "C",
+        "C#",
+        "D",
+        "D#",
+        "E",
+        "F",
+        "F#",
+        "G",
+        "G#",
+        "A",
+        "A#",
+        "B"
+      ],
+      "stochastic_draws": 0,
+      "tempo_us": 422535,
+      "title": "Seven Gate",
+      "tonal_reference": "E",
+      "tonic": "E"
+    },
+    {
+      "arrangement_bars": 32,
+      "bar_ticks": 3840,
+      "bpm": 146,
+      "collection_name": "A harmonic minor",
+      "cycles": [
+        "Primary A groups 5 sixteenth notes, 1200 ticks. Five bars hold 80 sixteenths, so the cycle meets the downbeat at bar 6. The 8-bar part then carries 3 bars of the next pass. Meter stays 4/4.",
+        "Secondary A groups 3 sixteenth notes. Sixteen sixteenths leave a remainder of 1, so the group does not reset each bar. It resets every 3 bars, where 48 sixteenths divide by 3.",
+        "Bass A is the offbeat eighth, one bar long. Drums A gallop inside the bar. The field changes every bar."
+      ],
+      "departures": [
+        "Primary B bar 8, tick 28320, is Bb4 (70) for 200 ticks.",
+        "Secondary B bar 8, tick 28800, is Bb4 (70) for 1000 ticks. These two notes do not overlap. Bb is outside A harmonic minor."
+      ],
+      "effective_bpm": 145.9999659333413,
+      "id": "k02",
+      "identity": "Fifth Lattice starts on the secondary sequence and a galloping kick. The primary line is a 5-step lattice that enters later. Variation B answers in quarters and flags one Bb.",
+      "limitations": "The opening eight bars have no primary sequence and no motif. That silence is written. It is not a missing file. Bb is a departure, not a new key.",
+      "meter": "4/4",
+      "part_bars": 8,
+      "pitch_classes": [
+        9,
+        11,
+        0,
+        2,
+        4,
+        5,
+        8
+      ],
+      "seed": 14602,
+      "slug": "k02-fifth-lattice",
+      "spell": [
+        "C",
+        "C#",
+        "D",
+        "Eb",
+        "E",
+        "F",
+        "F#",
+        "G",
+        "G#",
+        "A",
+        "Bb",
+        "B"
+      ],
+      "stochastic_draws": 0,
+      "tempo_us": 410959,
+      "title": "Fifth Lattice",
+      "tonal_reference": "A",
+      "tonic": "A"
+    },
+    {
+      "arrangement_bars": 32,
+      "bar_ticks": 3840,
+      "bpm": 140,
+      "collection_name": "F Phrygian",
+      "cycles": [
+        "Primary A groups 9 sixteenth notes, 2160 ticks, and sounds 120 ticks after each selected step. Nine and 16 are coprime, so the group does not reset inside one bar. It would meet the downbeat every 9 bars. The part ends at bar 8, and the cycle resets only when the part starts again. Meter stays 4/4.",
+        "Secondary A waits 360 ticks, then groups 5 sixteenths. That late grid realigns every 5 bars. The wait does not move the bar line, and it does not copy the primary 9-step.",
+        "Motif A places one attack every 2160 ticks, the same 9-sixteenth span, and resets with the part.",
+        "The field holds 4 bars, then 4 bars. Drums A reset every bar on a shifted hat grid."
+      ],
+      "departures": [
+        "Primary B bar 6, tick 21120, is G4 (67) for 1440 ticks. G is outside F Phrygian."
+      ],
+      "effective_bpm": 140.00014000014,
+      "id": "k03",
+      "identity": "Nine Pulse shifts a 9-step primary by 120 ticks and hangs a 4-bar field under it. The bass enters only at bar 9 of the arrangement. Variation B is three held attacks per bar plus one G.",
+      "limitations": "The 120-tick phase sits inside the sixteenth grid. It does not move the downbeat. The 9-step cycle does not finish inside the 8-bar part.",
+      "meter": "4/4",
+      "part_bars": 8,
+      "pitch_classes": [
+        5,
+        6,
+        8,
+        10,
+        0,
+        1,
+        3
+      ],
+      "seed": 14003,
+      "slug": "k03-nine-pulse",
+      "spell": [
+        "C",
+        "Db",
+        "D",
+        "Eb",
+        "E",
+        "F",
+        "Gb",
+        "G",
+        "Ab",
+        "A",
+        "Bb",
+        "B"
+      ],
+      "stochastic_draws": 0,
+      "tempo_us": 428571,
+      "title": "Nine Pulse",
+      "tonal_reference": "F",
+      "tonic": "F"
+    },
+    {
+      "arrangement_bars": 32,
+      "bar_ticks": 3840,
+      "bpm": 148,
+      "collection_name": "B Phrygian",
+      "cycles": [
+        "Primary A attacks on groups of 3, 3, and 2 sixteenths, then the same groups again. The sum is 16 sixteenths, so the pattern resets every bar. The bar remains 3840 ticks and the meter remains 4/4.",
+        "Drums A place the kick on the tresillo eighths, which is the same 3+3+2 shape in eighth notes, and that also resets every bar.",
+        "Secondary A resets every bar. Motif A alternates even and odd bars. The field staggers inside the bar and restarts each bar in variation A."
+      ],
+      "departures": [
+        "Primary B bar 8, tick 30480, is C#5 (73) for 150 ticks. C# is outside B Phrygian."
+      ],
+      "effective_bpm": 148.000148000148,
+      "id": "k04",
+      "identity": "Return Spiral builds the bar as 3+3+2 sixteenths, twice. The kick follows that tresillo. Variation B moves the lead to the off-sixteenths and flags one C#.",
+      "limitations": "3+3+2+3+3+2 equals 16 sixteenths, so the odd groups reset every bar. They do not create a new meter. C# is one attack at the end of variation B.",
+      "meter": "4/4",
+      "part_bars": 8,
+      "pitch_classes": [
+        11,
+        0,
+        2,
+        4,
+        6,
+        7,
+        9
+      ],
+      "seed": 14804,
+      "slug": "k04-return-spiral",
+      "spell": [
+        "C",
+        "C#",
+        "D",
+        "D#",
+        "E",
+        "F",
+        "F#",
+        "G",
+        "G#",
+        "A",
+        "A#",
+        "B"
+      ],
+      "stochastic_draws": 0,
+      "tempo_us": 405405,
+      "title": "Return Spiral",
+      "tonal_reference": "B",
+      "tonic": "B"
+    }
+  ],
+  "meter": {
+    "bar_ticks": 3840,
+    "denominator": 4,
+    "numerator": 4
+  },
+  "microtiming": "offset is 0; performed_start = nominal_start",
+  "note_policy": "Note-only MIDI. No program changes, controllers, pitch bend, or sound-design messages.",
+  "odd_step": "Odd-step grouping is a local cycle. It does not change the 4/4 meter. A bar stays 3840 ticks.",
+  "pack_id": "goa-trance",
+  "pack_name": "Goa Trance",
+  "part_bars": 8,
+  "parts": [
+    {
+      "bpm": 142,
+      "channel": 9,
+      "container_bars": 8,
+      "core": true,
+      "id": "k01.drums.a",
+      "kit_id": "k01",
+      "monophonic": false,
+      "notes": 81,
+      "path": "midi/k01-seven-gate/drums-a.mid",
+      "role": "drums",
+      "study_id": "k01",
+      "variation": "a"
+    },
+    {
+      "bpm": 142,
+      "channel": 9,
+      "container_bars": 8,
+      "core": true,
+      "id": "k01.drums.b",
+      "kit_id": "k01",
+      "monophonic": false,
+      "notes": 72,
+      "path": "midi/k01-seven-gate/drums-b.mid",
+      "role": "drums",
+      "study_id": "k01",
+      "variation": "b"
+    },
+    {
+      "bpm": 142,
+      "channel": 4,
+      "container_bars": 8,
+      "core": true,
+      "id": "k01.bass.a",
+      "kit_id": "k01",
+      "monophonic": true,
+      "notes": 96,
+      "path": "midi/k01-seven-gate/bass-a.mid",
+      "role": "bass",
+      "study_id": "k01",
+      "variation": "a"
+    },
+    {
+      "bpm": 142,
+      "channel": 4,
+      "container_bars": 8,
+      "core": true,
+      "id": "k01.bass.b",
+      "kit_id": "k01",
+      "monophonic": true,
+      "notes": 64,
+      "path": "midi/k01-seven-gate/bass-b.mid",
+      "role": "bass",
+      "study_id": "k01",
+      "variation": "b"
+    },
+    {
+      "bpm": 142,
+      "channel": 0,
+      "container_bars": 8,
+      "core": true,
+      "id": "k01.primary.a",
+      "kit_id": "k01",
+      "monophonic": true,
+      "notes": 110,
+      "path": "midi/k01-seven-gate/primary-a.mid",
+      "role": "primary-sequence",
+      "study_id": "k01",
+      "variation": "a"
+    },
+    {
+      "bpm": 142,
+      "channel": 0,
+      "container_bars": 8,
+      "core": true,
+      "id": "k01.primary.b",
+      "kit_id": "k01",
+      "monophonic": true,
+      "notes": 63,
+      "path": "midi/k01-seven-gate/primary-b.mid",
+      "role": "primary-sequence",
+      "study_id": "k01",
+      "variation": "b"
+    },
+    {
+      "bpm": 142,
+      "channel": 1,
+      "container_bars": 8,
+      "core": true,
+      "id": "k01.secondary.a",
+      "kit_id": "k01",
+      "monophonic": true,
+      "notes": 102,
+      "path": "midi/k01-seven-gate/secondary-a.mid",
+      "role": "secondary-sequence",
+      "study_id": "k01",
+      "variation": "a"
+    },
+    {
+      "bpm": 142,
+      "channel": 1,
+      "container_bars": 8,
+      "core": true,
+      "id": "k01.secondary.b",
+      "kit_id": "k01",
+      "monophonic": true,
+      "notes": 16,
+      "path": "midi/k01-seven-gate/secondary-b.mid",
+      "role": "secondary-sequence",
+      "study_id": "k01",
+      "variation": "b"
+    },
+    {
+      "bpm": 142,
+      "channel": 2,
+      "container_bars": 8,
+      "core": true,
+      "id": "k01.motif.a",
+      "kit_id": "k01",
+      "monophonic": true,
+      "notes": 12,
+      "path": "midi/k01-seven-gate/motif-a.mid",
+      "role": "motif",
+      "study_id": "k01",
+      "variation": "a"
+    },
+    {
+      "bpm": 142,
+      "channel": 2,
+      "container_bars": 8,
+      "core": true,
+      "id": "k01.motif.b",
+      "kit_id": "k01",
+      "monophonic": true,
+      "notes": 12,
+      "path": "midi/k01-seven-gate/motif-b.mid",
+      "role": "motif",
+      "study_id": "k01",
+      "variation": "b"
+    },
+    {
+      "bpm": 142,
+      "channel": 3,
+      "container_bars": 8,
+      "core": true,
+      "id": "k01.field.a",
+      "kit_id": "k01",
+      "monophonic": false,
+      "notes": 16,
+      "path": "midi/k01-seven-gate/field-a.mid",
+      "role": "harmonic-field",
+      "study_id": "k01",
+      "variation": "a"
+    },
+    {
+      "bpm": 142,
+      "channel": 3,
+      "container_bars": 8,
+      "core": true,
+      "id": "k01.field.b",
+      "kit_id": "k01",
+      "monophonic": false,
+      "notes": 16,
+      "path": "midi/k01-seven-gate/field-b.mid",
+      "role": "harmonic-field",
+      "study_id": "k01",
+      "variation": "b"
+    },
+    {
+      "bpm": 146,
+      "channel": 9,
+      "container_bars": 8,
+      "core": true,
+      "id": "k02.drums.a",
+      "kit_id": "k02",
+      "monophonic": false,
+      "notes": 112,
+      "path": "midi/k02-fifth-lattice/drums-a.mid",
+      "role": "drums",
+      "study_id": "k02",
+      "variation": "a"
+    },
+    {
+      "bpm": 146,
+      "channel": 9,
+      "container_bars": 8,
+      "core": true,
+      "id": "k02.drums.b",
+      "kit_id": "k02",
+      "monophonic": false,
+      "notes": 80,
+      "path": "midi/k02-fifth-lattice/drums-b.mid",
+      "role": "drums",
+      "study_id": "k02",
+      "variation": "b"
+    },
+    {
+      "bpm": 146,
+      "channel": 4,
+      "container_bars": 8,
+      "core": true,
+      "id": "k02.bass.a",
+      "kit_id": "k02",
+      "monophonic": true,
+      "notes": 32,
+      "path": "midi/k02-fifth-lattice/bass-a.mid",
+      "role": "bass",
+      "study_id": "k02",
+      "variation": "a"
+    },
+    {
+      "bpm": 146,
+      "channel": 4,
+      "container_bars": 8,
+      "core": true,
+      "id": "k02.bass.b",
+      "kit_id": "k02",
+      "monophonic": true,
+      "notes": 24,
+      "path": "midi/k02-fifth-lattice/bass-b.mid",
+      "role": "bass",
+      "study_id": "k02",
+      "variation": "b"
+    },
+    {
+      "bpm": 146,
+      "channel": 0,
+      "container_bars": 8,
+      "core": true,
+      "id": "k02.primary.a",
+      "kit_id": "k02",
+      "monophonic": true,
+      "notes": 103,
+      "path": "midi/k02-fifth-lattice/primary-a.mid",
+      "role": "primary-sequence",
+      "study_id": "k02",
+      "variation": "a"
+    },
+    {
+      "bpm": 146,
+      "channel": 0,
+      "container_bars": 8,
+      "core": true,
+      "id": "k02.primary.b",
+      "kit_id": "k02",
+      "monophonic": true,
+      "notes": 32,
+      "path": "midi/k02-fifth-lattice/primary-b.mid",
+      "role": "primary-sequence",
+      "study_id": "k02",
+      "variation": "b"
+    },
+    {
+      "bpm": 146,
+      "channel": 1,
+      "container_bars": 8,
+      "core": true,
+      "id": "k02.secondary.a",
+      "kit_id": "k02",
+      "monophonic": true,
+      "notes": 86,
+      "path": "midi/k02-fifth-lattice/secondary-a.mid",
+      "role": "secondary-sequence",
+      "study_id": "k02",
+      "variation": "a"
+    },
+    {
+      "bpm": 146,
+      "channel": 1,
+      "container_bars": 8,
+      "core": true,
+      "id": "k02.secondary.b",
+      "kit_id": "k02",
+      "monophonic": true,
+      "notes": 16,
+      "path": "midi/k02-fifth-lattice/secondary-b.mid",
+      "role": "secondary-sequence",
+      "study_id": "k02",
+      "variation": "b"
+    },
+    {
+      "bpm": 146,
+      "channel": 2,
+      "container_bars": 8,
+      "core": true,
+      "id": "k02.motif.a",
+      "kit_id": "k02",
+      "monophonic": true,
+      "notes": 16,
+      "path": "midi/k02-fifth-lattice/motif-a.mid",
+      "role": "motif",
+      "study_id": "k02",
+      "variation": "a"
+    },
+    {
+      "bpm": 146,
+      "channel": 2,
+      "container_bars": 8,
+      "core": true,
+      "id": "k02.motif.b",
+      "kit_id": "k02",
+      "monophonic": true,
+      "notes": 16,
+      "path": "midi/k02-fifth-lattice/motif-b.mid",
+      "role": "motif",
+      "study_id": "k02",
+      "variation": "b"
+    },
+    {
+      "bpm": 146,
+      "channel": 3,
+      "container_bars": 8,
+      "core": true,
+      "id": "k02.field.a",
+      "kit_id": "k02",
+      "monophonic": false,
+      "notes": 32,
+      "path": "midi/k02-fifth-lattice/field-a.mid",
+      "role": "harmonic-field",
+      "study_id": "k02",
+      "variation": "a"
+    },
+    {
+      "bpm": 146,
+      "channel": 3,
+      "container_bars": 8,
+      "core": true,
+      "id": "k02.field.b",
+      "kit_id": "k02",
+      "monophonic": false,
+      "notes": 16,
+      "path": "midi/k02-fifth-lattice/field-b.mid",
+      "role": "harmonic-field",
+      "study_id": "k02",
+      "variation": "b"
+    },
+    {
+      "bpm": 140,
+      "channel": 9,
+      "container_bars": 8,
+      "core": true,
+      "id": "k03.drums.a",
+      "kit_id": "k03",
+      "monophonic": false,
+      "notes": 96,
+      "path": "midi/k03-nine-pulse/drums-a.mid",
+      "role": "drums",
+      "study_id": "k03",
+      "variation": "a"
+    },
+    {
+      "bpm": 140,
+      "channel": 9,
+      "container_bars": 8,
+      "core": true,
+      "id": "k03.drums.b",
+      "kit_id": "k03",
+      "monophonic": false,
+      "notes": 82,
+      "path": "midi/k03-nine-pulse/drums-b.mid",
+      "role": "drums",
+      "study_id": "k03",
+      "variation": "b"
+    },
+    {
+      "bpm": 140,
+      "channel": 4,
+      "container_bars": 8,
+      "core": true,
+      "id": "k03.bass.a",
+      "kit_id": "k03",
+      "monophonic": true,
+      "notes": 40,
+      "path": "midi/k03-nine-pulse/bass-a.mid",
+      "role": "bass",
+      "study_id": "k03",
+      "variation": "a"
+    },
+    {
+      "bpm": 140,
+      "channel": 4,
+      "container_bars": 8,
+      "core": true,
+      "id": "k03.bass.b",
+      "kit_id": "k03",
+      "monophonic": true,
+      "notes": 32,
+      "path": "midi/k03-nine-pulse/bass-b.mid",
+      "role": "bass",
+      "study_id": "k03",
+      "variation": "b"
+    },
+    {
+      "bpm": 140,
+      "channel": 0,
+      "container_bars": 8,
+      "core": true,
+      "id": "k03.primary.a",
+      "kit_id": "k03",
+      "monophonic": true,
+      "notes": 99,
+      "path": "midi/k03-nine-pulse/primary-a.mid",
+      "role": "primary-sequence",
+      "study_id": "k03",
+      "variation": "a"
+    },
+    {
+      "bpm": 140,
+      "channel": 0,
+      "container_bars": 8,
+      "core": true,
+      "id": "k03.primary.b",
+      "kit_id": "k03",
+      "monophonic": true,
+      "notes": 24,
+      "path": "midi/k03-nine-pulse/primary-b.mid",
+      "role": "primary-sequence",
+      "study_id": "k03",
+      "variation": "b"
+    },
+    {
+      "bpm": 140,
+      "channel": 1,
+      "container_bars": 8,
+      "core": true,
+      "id": "k03.secondary.a",
+      "kit_id": "k03",
+      "monophonic": true,
+      "notes": 101,
+      "path": "midi/k03-nine-pulse/secondary-a.mid",
+      "role": "secondary-sequence",
+      "study_id": "k03",
+      "variation": "a"
+    },
+    {
+      "bpm": 140,
+      "channel": 1,
+      "container_bars": 8,
+      "core": true,
+      "id": "k03.secondary.b",
+      "kit_id": "k03",
+      "monophonic": true,
+      "notes": 40,
+      "path": "midi/k03-nine-pulse/secondary-b.mid",
+      "role": "secondary-sequence",
+      "study_id": "k03",
+      "variation": "b"
+    },
+    {
+      "bpm": 140,
+      "channel": 2,
+      "container_bars": 8,
+      "core": true,
+      "id": "k03.motif.a",
+      "kit_id": "k03",
+      "monophonic": true,
+      "notes": 15,
+      "path": "midi/k03-nine-pulse/motif-a.mid",
+      "role": "motif",
+      "study_id": "k03",
+      "variation": "a"
+    },
+    {
+      "bpm": 140,
+      "channel": 2,
+      "container_bars": 8,
+      "core": true,
+      "id": "k03.motif.b",
+      "kit_id": "k03",
+      "monophonic": true,
+      "notes": 10,
+      "path": "midi/k03-nine-pulse/motif-b.mid",
+      "role": "motif",
+      "study_id": "k03",
+      "variation": "b"
+    },
+    {
+      "bpm": 140,
+      "channel": 3,
+      "container_bars": 8,
+      "core": true,
+      "id": "k03.field.a",
+      "kit_id": "k03",
+      "monophonic": false,
+      "notes": 8,
+      "path": "midi/k03-nine-pulse/field-a.mid",
+      "role": "harmonic-field",
+      "study_id": "k03",
+      "variation": "a"
+    },
+    {
+      "bpm": 140,
+      "channel": 3,
+      "container_bars": 8,
+      "core": true,
+      "id": "k03.field.b",
+      "kit_id": "k03",
+      "monophonic": false,
+      "notes": 32,
+      "path": "midi/k03-nine-pulse/field-b.mid",
+      "role": "harmonic-field",
+      "study_id": "k03",
+      "variation": "b"
+    },
+    {
+      "bpm": 148,
+      "channel": 9,
+      "container_bars": 8,
+      "core": true,
+      "id": "k04.drums.a",
+      "kit_id": "k04",
+      "monophonic": false,
+      "notes": 116,
+      "path": "midi/k04-return-spiral/drums-a.mid",
+      "role": "drums",
+      "study_id": "k04",
+      "variation": "a"
+    },
+    {
+      "bpm": 148,
+      "channel": 9,
+      "container_bars": 8,
+      "core": true,
+      "id": "k04.drums.b",
+      "kit_id": "k04",
+      "monophonic": false,
+      "notes": 160,
+      "path": "midi/k04-return-spiral/drums-b.mid",
+      "role": "drums",
+      "study_id": "k04",
+      "variation": "b"
+    },
+    {
+      "bpm": 148,
+      "channel": 4,
+      "container_bars": 8,
+      "core": true,
+      "id": "k04.bass.a",
+      "kit_id": "k04",
+      "monophonic": true,
+      "notes": 64,
+      "path": "midi/k04-return-spiral/bass-a.mid",
+      "role": "bass",
+      "study_id": "k04",
+      "variation": "a"
+    },
+    {
+      "bpm": 148,
+      "channel": 4,
+      "container_bars": 8,
+      "core": true,
+      "id": "k04.bass.b",
+      "kit_id": "k04",
+      "monophonic": true,
+      "notes": 64,
+      "path": "midi/k04-return-spiral/bass-b.mid",
+      "role": "bass",
+      "study_id": "k04",
+      "variation": "b"
+    },
+    {
+      "bpm": 148,
+      "channel": 0,
+      "container_bars": 8,
+      "core": true,
+      "id": "k04.primary.a",
+      "kit_id": "k04",
+      "monophonic": true,
+      "notes": 48,
+      "path": "midi/k04-return-spiral/primary-a.mid",
+      "role": "primary-sequence",
+      "study_id": "k04",
+      "variation": "a"
+    },
+    {
+      "bpm": 148,
+      "channel": 0,
+      "container_bars": 8,
+      "core": true,
+      "id": "k04.primary.b",
+      "kit_id": "k04",
+      "monophonic": true,
+      "notes": 64,
+      "path": "midi/k04-return-spiral/primary-b.mid",
+      "role": "primary-sequence",
+      "study_id": "k04",
+      "variation": "b"
+    },
+    {
+      "bpm": 148,
+      "channel": 1,
+      "container_bars": 8,
+      "core": true,
+      "id": "k04.secondary.a",
+      "kit_id": "k04",
+      "monophonic": true,
+      "notes": 48,
+      "path": "midi/k04-return-spiral/secondary-a.mid",
+      "role": "secondary-sequence",
+      "study_id": "k04",
+      "variation": "a"
+    },
+    {
+      "bpm": 148,
+      "channel": 1,
+      "container_bars": 8,
+      "core": true,
+      "id": "k04.secondary.b",
+      "kit_id": "k04",
+      "monophonic": true,
+      "notes": 16,
+      "path": "midi/k04-return-spiral/secondary-b.mid",
+      "role": "secondary-sequence",
+      "study_id": "k04",
+      "variation": "b"
+    },
+    {
+      "bpm": 148,
+      "channel": 2,
+      "container_bars": 8,
+      "core": true,
+      "id": "k04.motif.a",
+      "kit_id": "k04",
+      "monophonic": true,
+      "notes": 16,
+      "path": "midi/k04-return-spiral/motif-a.mid",
+      "role": "motif",
+      "study_id": "k04",
+      "variation": "a"
+    },
+    {
+      "bpm": 148,
+      "channel": 2,
+      "container_bars": 8,
+      "core": true,
+      "id": "k04.motif.b",
+      "kit_id": "k04",
+      "monophonic": true,
+      "notes": 16,
+      "path": "midi/k04-return-spiral/motif-b.mid",
+      "role": "motif",
+      "study_id": "k04",
+      "variation": "b"
+    },
+    {
+      "bpm": 148,
+      "channel": 3,
+      "container_bars": 8,
+      "core": true,
+      "id": "k04.field.a",
+      "kit_id": "k04",
+      "monophonic": false,
+      "notes": 32,
+      "path": "midi/k04-return-spiral/field-a.mid",
+      "role": "harmonic-field",
+      "study_id": "k04",
+      "variation": "a"
+    },
+    {
+      "bpm": 148,
+      "channel": 3,
+      "container_bars": 8,
+      "core": true,
+      "id": "k04.field.b",
+      "kit_id": "k04",
+      "monophonic": false,
+      "notes": 16,
+      "path": "midi/k04-return-spiral/field-b.mid",
+      "role": "harmonic-field",
+      "study_id": "k04",
+      "variation": "b"
+    }
+  ],
+  "ppq": 960,
+  "preview_excerpt": {
+    "arrangement_path": "midi/k01-seven-gate/arrangement.mid",
+    "bars": "1-16 of the 32-bar arrangement",
+    "end_tick": 61440,
+    "full_arrangement_seconds": 54.08448,
+    "kit_id": "k01",
+    "reason": "The 32-bar arrangement is longer than 40 seconds, so the primary preview is the first 16 bars.",
+    "score_seconds": 27.04224,
+    "start_tick": 0
+  },
+  "range_statement": "Drums use MIDI channel index 9, the GM channel 10, and only the mapped pitches 36 kick, 37 side stick, 38 acoustic snare, 39 clap, 40 electric snare, 42 closed hat, 46 open hat, and 49 crash. Bass is monophonic, MIDI 28 to 47, channel 4. Primary sequence is monophonic, MIDI 55 to 84, channel 0. Secondary sequence is monophonic, MIDI 48 to 79, channel 1. Motif is monophonic, MIDI 60 to 86, channel 2. Harmonic field allows four notes, MIDI 45 to 76, channel 3. C4 is 60.",
+  "reference_part_count": 0,
+  "seed_meaning": "Seeds identify kits. Nothing is random.",
+  "stack_warning": "Use either the combined arrangement or the separate parts. Do not stack the part files on top of the combined file.",
+  "stochastic_draws": 0
+}

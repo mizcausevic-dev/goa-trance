@@ -1,0 +1,159 @@
+preview, not a master
+{
+  "arrangement_path": "midi/k01-seven-gate/arrangement.mid",
+  "arrangement_sha256": "1eb37667fb6d495367c09df4d277c9f0c5b42565ef97815610b30e378e02d660",
+  "encode": "libmp3lame CBR 192 kbps, mono source",
+  "excerpt": {
+    "bars": "1-16 of the 32-bar arrangement",
+    "end_tick": 61440,
+    "full_arrangement_bars": 32,
+    "full_arrangement_seconds": 54.08448,
+    "kit": "k01",
+    "reason": "The 32-bar arrangement is longer than 40 seconds, so the primary preview is the first 16 bars.",
+    "sequencing": [
+      {
+        "bars": 8,
+        "path": "midi/k01-seven-gate/drums-a.mid",
+        "role": "drums",
+        "source_part": "k01.drums.a",
+        "start_bar": 0
+      },
+      {
+        "bars": 8,
+        "path": "midi/k01-seven-gate/drums-a.mid",
+        "role": "drums",
+        "source_part": "k01.drums.a",
+        "start_bar": 8
+      },
+      {
+        "bars": 8,
+        "path": "midi/k01-seven-gate/bass-a.mid",
+        "role": "bass",
+        "source_part": "k01.bass.a",
+        "start_bar": 0
+      },
+      {
+        "bars": 8,
+        "path": "midi/k01-seven-gate/bass-a.mid",
+        "role": "bass",
+        "source_part": "k01.bass.a",
+        "start_bar": 8
+      },
+      {
+        "bars": 8,
+        "path": "midi/k01-seven-gate/primary-a.mid",
+        "role": "primary-sequence",
+        "source_part": "k01.primary.a",
+        "start_bar": 0
+      },
+      {
+        "bars": 8,
+        "path": "midi/k01-seven-gate/primary-a.mid",
+        "role": "primary-sequence",
+        "source_part": "k01.primary.a",
+        "start_bar": 8
+      },
+      {
+        "bars": 8,
+        "path": "midi/k01-seven-gate/secondary-a.mid",
+        "role": "secondary-sequence",
+        "source_part": "k01.secondary.a",
+        "start_bar": 8
+      },
+      {
+        "bars": 8,
+        "path": "midi/k01-seven-gate/motif-a.mid",
+        "role": "motif",
+        "source_part": "k01.motif.a",
+        "start_bar": 0
+      },
+      {
+        "bars": 8,
+        "path": "midi/k01-seven-gate/motif-a.mid",
+        "role": "motif",
+        "source_part": "k01.motif.a",
+        "start_bar": 8
+      },
+      {
+        "bars": 8,
+        "path": "midi/k01-seven-gate/field-a.mid",
+        "role": "harmonic-field",
+        "source_part": "k01.field.a",
+        "start_bar": 8
+      }
+    ],
+    "start_tick": 0,
+    "transposition": "none"
+  },
+  "intermediate_wav": "build/preview.wav",
+  "intermediate_wav_note": "The WAV is gitignored build storage. The delivered preview is the MP3.",
+  "intermediate_wav_sha256": "6c472f47d49ffde5a562a3a1121fd23e89baef7797e0ab1780de8ddc5a4a42ae",
+  "label": "preview, not a master",
+  "listening": "No human listening audition was performed for this build.",
+  "mapping": {
+    "bass": "dull saw at the written pitch, short decay, held for the written duration",
+    "drums": "pitch 36 is a short sine kick; hats, snare, clap, stick, and crash are noise bursts",
+    "harmonic-field": "slow sine at the written pitch, held for the written duration",
+    "motif": "sine at the written pitch, held for the written duration",
+    "primary-sequence": "pulse wave at the written pitch, held for the written duration",
+    "secondary-sequence": "triangle at the written pitch, short decay"
+  },
+  "mp3_encode_command": [
+    "ffmpeg",
+    "-y",
+    "-i",
+    "/home/runner/work/goa-trance/goa-trance/build/preview.wav",
+    "-codec:a",
+    "libmp3lame",
+    "-b:a",
+    "192k",
+    "/home/runner/work/goa-trance/goa-trance/preview/preview.mp3"
+  ],
+  "mp3_path": "preview/preview.mp3",
+  "mp3_sha256": "d2127d71ec1672c0b0cadaa7ceb31d6c1f02badcf0e556fa8c53d3c06bddf98c",
+  "pack_id": "goa-trance",
+  "program_changes": "No program changes are encoded. A conventional GM player will normally use its default piano program for pitched channels unless configured otherwise; compatible GM channel 10 percussion is treated separately. Player behavior may vary.",
+  "renderer": "simple-synth-1.0.0",
+  "renderer_note": "These voices are preview mappings. They are not encoded in the MIDI file.",
+  "rounding": "sample = floor(seconds * sample_rate + 0.5), computed from tick 0; intervals are not summed",
+  "sample_peak": 28000,
+  "sample_peak_dbfs": -1.3658380723499741,
+  "sample_peak_note": "This is a sample peak of the integer mix after scaling. It is not a true-peak measurement and it is not LUFS.",
+  "score_seconds": 27.04224,
+  "score_sha256": "9e894dd2688fb26b5b3df1a1abf58de1b486c7c6896c651f04fe32bc34f31c5b",
+  "seconds_encoded": 27.042245,
+  "source_parts": [
+    {
+      "id": "k01.drums.a",
+      "path": "midi/k01-seven-gate/drums-a.mid",
+      "sha256": "4342e1ce97bb5c7859da8a3b841e4be80c1b6af914b853bc20d888d5eb06baf1"
+    },
+    {
+      "id": "k01.bass.a",
+      "path": "midi/k01-seven-gate/bass-a.mid",
+      "sha256": "8e382cbb04d96bee045ac38c3875dcd6880fc2e9bd022c4416777bb5461e0f5c"
+    },
+    {
+      "id": "k01.primary.a",
+      "path": "midi/k01-seven-gate/primary-a.mid",
+      "sha256": "804494cd58843c8a88e0f10bb7950b0e063118585a3cddb6019f9cd91c56eff6"
+    },
+    {
+      "id": "k01.secondary.a",
+      "path": "midi/k01-seven-gate/secondary-a.mid",
+      "sha256": "fe3b7f8b0eebee6414cbed88c5872774ca06447e19f7f4b2363978dc4830240e"
+    },
+    {
+      "id": "k01.motif.a",
+      "path": "midi/k01-seven-gate/motif-a.mid",
+      "sha256": "f004b51e742c8e1601342ba5d14328929a4c51226da2345e91b18e7b86349a6e"
+    },
+    {
+      "id": "k01.field.a",
+      "path": "midi/k01-seven-gate/field-a.mid",
+      "sha256": "f13f0e81f79f3b4a0754ae4c1230fd2919154318d32be8dca5918880a7d7c915"
+    }
+  ],
+  "tempo_authority": "encoded MIDI tempo",
+  "tempo_us": 422535
+}
